@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Disallow CMS access
+Disallow: /cms/
+Disallow: /includes/
+
+# Disallow database files
+Disallow: /*.sql$
+
+# Allow specific CSS/JS
+Allow: /assets/
+
+Sitemap: https://yourdomain.com/sitemap.xml
